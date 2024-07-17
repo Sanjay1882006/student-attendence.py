@@ -2,7 +2,7 @@ import math
 import random
 def try_():
     lower=int(input("enter lower number : "))
-    upper=int(input("enter upper number : "))
+    upper=int(input("enter bigger number : "))
     computer=math.log(upper-lower+1,2)
     computer=int(computer)
     random_=random.randint(lower,upper)
