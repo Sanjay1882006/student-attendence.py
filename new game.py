@@ -1,8 +1,8 @@
 import math
 import random
 def try_():
-    lower=int(input("enter lower number : "))
-    upper=int(input("enter bigger number : "))
+    lower=int(input("Enter any number : "))
+    upper=int(input("Enter a number grather than the first number : "))
     computer=math.log(upper-lower+1,2)
     computer=int(computer)
     random_=random.randint(lower,upper)
